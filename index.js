@@ -89,8 +89,4 @@ app.post('/create', (req, res) => {
 
 
 
-// Start server
-const port = 3000;
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+module.exports = app;
